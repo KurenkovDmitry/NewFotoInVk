@@ -3,7 +3,7 @@ import vk_api
 
 
 def main():
-    token='4169ac9a7a64c93d7b45c9906edb4a9d1aca590792dd840965a6fb8810532b1c82b7c198edc5f4e03cfbe'
+    TOKEN = "9efd0295084cac34964ca3e44589f70353e29f36072a0d49ef843ec07e572c1b4a87cf9da1631975e4a59"
     vk_session = vk_api.VkApi(token=token)
 
     try:
